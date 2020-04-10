@@ -1,0 +1,4 @@
+# リスト型で計算するだけ
+
+ab = list(map(int, input().split()))
+print(ab[0] * ab[1], ab[0] * 2 + ab[1] * 2)
